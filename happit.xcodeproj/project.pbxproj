@@ -1,0 +1,626 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7794E2B227E25DC30073C9FC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7794E2B127E25DC30073C9FC /* AppDelegate.swift */; };
+		7794E2B427E25DC30073C9FC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7794E2B327E25DC30073C9FC /* SceneDelegate.swift */; };
+		7794E2B627E25DC30073C9FC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7794E2B527E25DC30073C9FC /* ViewController.swift */; };
+		7794E2B927E25DC30073C9FC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7794E2B727E25DC30073C9FC /* Main.storyboard */; };
+		7794E2BC27E25DC30073C9FC /* happit.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7794E2BA27E25DC30073C9FC /* happit.xcdatamodeld */; };
+		7794E2BE27E25DC50073C9FC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7794E2BD27E25DC50073C9FC /* Assets.xcassets */; };
+		7794E2C127E25DC50073C9FC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7794E2BF27E25DC50073C9FC /* LaunchScreen.storyboard */; };
+		7794E2CC27E25DC50073C9FC /* happitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7794E2CB27E25DC50073C9FC /* happitTests.swift */; };
+		7794E2D627E25DC60073C9FC /* happitUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7794E2D527E25DC60073C9FC /* happitUITests.swift */; };
+		7794E2D827E25DC60073C9FC /* happitUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7794E2D727E25DC60073C9FC /* happitUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7794E2C827E25DC50073C9FC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7794E2A627E25DC30073C9FC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7794E2AD27E25DC30073C9FC;
+			remoteInfo = happit;
+		};
+		7794E2D227E25DC60073C9FC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7794E2A627E25DC30073C9FC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7794E2AD27E25DC30073C9FC;
+			remoteInfo = happit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7794E2AE27E25DC30073C9FC /* happit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = happit.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7794E2B127E25DC30073C9FC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7794E2B327E25DC30073C9FC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		7794E2B527E25DC30073C9FC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7794E2B827E25DC30073C9FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7794E2BB27E25DC30073C9FC /* happit.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = happit.xcdatamodel; sourceTree = "<group>"; };
+		7794E2BD27E25DC50073C9FC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7794E2C027E25DC50073C9FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7794E2C227E25DC50073C9FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7794E2C727E25DC50073C9FC /* happitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = happitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7794E2CB27E25DC50073C9FC /* happitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = happitTests.swift; sourceTree = "<group>"; };
+		7794E2D127E25DC60073C9FC /* happitUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = happitUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7794E2D527E25DC60073C9FC /* happitUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = happitUITests.swift; sourceTree = "<group>"; };
+		7794E2D727E25DC60073C9FC /* happitUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = happitUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7794E2AB27E25DC30073C9FC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7794E2C427E25DC50073C9FC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7794E2CE27E25DC60073C9FC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7794E2A527E25DC30073C9FC = {
+			isa = PBXGroup;
+			children = (
+				7794E2B027E25DC30073C9FC /* happit */,
+				7794E2CA27E25DC50073C9FC /* happitTests */,
+				7794E2D427E25DC60073C9FC /* happitUITests */,
+				7794E2AF27E25DC30073C9FC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7794E2AF27E25DC30073C9FC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7794E2AE27E25DC30073C9FC /* happit.app */,
+				7794E2C727E25DC50073C9FC /* happitTests.xctest */,
+				7794E2D127E25DC60073C9FC /* happitUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7794E2B027E25DC30073C9FC /* happit */ = {
+			isa = PBXGroup;
+			children = (
+				7794E2B127E25DC30073C9FC /* AppDelegate.swift */,
+				7794E2B327E25DC30073C9FC /* SceneDelegate.swift */,
+				7794E2B527E25DC30073C9FC /* ViewController.swift */,
+				7794E2B727E25DC30073C9FC /* Main.storyboard */,
+				7794E2BD27E25DC50073C9FC /* Assets.xcassets */,
+				7794E2BF27E25DC50073C9FC /* LaunchScreen.storyboard */,
+				7794E2C227E25DC50073C9FC /* Info.plist */,
+				7794E2BA27E25DC30073C9FC /* happit.xcdatamodeld */,
+			);
+			path = happit;
+			sourceTree = "<group>";
+		};
+		7794E2CA27E25DC50073C9FC /* happitTests */ = {
+			isa = PBXGroup;
+			children = (
+				7794E2CB27E25DC50073C9FC /* happitTests.swift */,
+			);
+			path = happitTests;
+			sourceTree = "<group>";
+		};
+		7794E2D427E25DC60073C9FC /* happitUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7794E2D527E25DC60073C9FC /* happitUITests.swift */,
+				7794E2D727E25DC60073C9FC /* happitUITestsLaunchTests.swift */,
+			);
+			path = happitUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7794E2AD27E25DC30073C9FC /* happit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7794E2DB27E25DC60073C9FC /* Build configuration list for PBXNativeTarget "happit" */;
+			buildPhases = (
+				7794E2AA27E25DC30073C9FC /* Sources */,
+				7794E2AB27E25DC30073C9FC /* Frameworks */,
+				7794E2AC27E25DC30073C9FC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = happit;
+			productName = happit;
+			productReference = 7794E2AE27E25DC30073C9FC /* happit.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7794E2C627E25DC50073C9FC /* happitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7794E2DE27E25DC60073C9FC /* Build configuration list for PBXNativeTarget "happitTests" */;
+			buildPhases = (
+				7794E2C327E25DC50073C9FC /* Sources */,
+				7794E2C427E25DC50073C9FC /* Frameworks */,
+				7794E2C527E25DC50073C9FC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7794E2C927E25DC50073C9FC /* PBXTargetDependency */,
+			);
+			name = happitTests;
+			productName = happitTests;
+			productReference = 7794E2C727E25DC50073C9FC /* happitTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7794E2D027E25DC60073C9FC /* happitUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7794E2E127E25DC60073C9FC /* Build configuration list for PBXNativeTarget "happitUITests" */;
+			buildPhases = (
+				7794E2CD27E25DC60073C9FC /* Sources */,
+				7794E2CE27E25DC60073C9FC /* Frameworks */,
+				7794E2CF27E25DC60073C9FC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7794E2D327E25DC60073C9FC /* PBXTargetDependency */,
+			);
+			name = happitUITests;
+			productName = happitUITests;
+			productReference = 7794E2D127E25DC60073C9FC /* happitUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7794E2A627E25DC30073C9FC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					7794E2AD27E25DC30073C9FC = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					7794E2C627E25DC50073C9FC = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 7794E2AD27E25DC30073C9FC;
+					};
+					7794E2D027E25DC60073C9FC = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 7794E2AD27E25DC30073C9FC;
+					};
+				};
+			};
+			buildConfigurationList = 7794E2A927E25DC30073C9FC /* Build configuration list for PBXProject "happit" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7794E2A527E25DC30073C9FC;
+			productRefGroup = 7794E2AF27E25DC30073C9FC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7794E2AD27E25DC30073C9FC /* happit */,
+				7794E2C627E25DC50073C9FC /* happitTests */,
+				7794E2D027E25DC60073C9FC /* happitUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7794E2AC27E25DC30073C9FC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7794E2C127E25DC50073C9FC /* LaunchScreen.storyboard in Resources */,
+				7794E2BE27E25DC50073C9FC /* Assets.xcassets in Resources */,
+				7794E2B927E25DC30073C9FC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7794E2C527E25DC50073C9FC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7794E2CF27E25DC60073C9FC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7794E2AA27E25DC30073C9FC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7794E2B627E25DC30073C9FC /* ViewController.swift in Sources */,
+				7794E2BC27E25DC30073C9FC /* happit.xcdatamodeld in Sources */,
+				7794E2B227E25DC30073C9FC /* AppDelegate.swift in Sources */,
+				7794E2B427E25DC30073C9FC /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7794E2C327E25DC50073C9FC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7794E2CC27E25DC50073C9FC /* happitTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7794E2CD27E25DC60073C9FC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7794E2D827E25DC60073C9FC /* happitUITestsLaunchTests.swift in Sources */,
+				7794E2D627E25DC60073C9FC /* happitUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7794E2C927E25DC50073C9FC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7794E2AD27E25DC30073C9FC /* happit */;
+			targetProxy = 7794E2C827E25DC50073C9FC /* PBXContainerItemProxy */;
+		};
+		7794E2D327E25DC60073C9FC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7794E2AD27E25DC30073C9FC /* happit */;
+			targetProxy = 7794E2D227E25DC60073C9FC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7794E2B727E25DC30073C9FC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7794E2B827E25DC30073C9FC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7794E2BF27E25DC50073C9FC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7794E2C027E25DC50073C9FC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7794E2D927E25DC60073C9FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7794E2DA27E25DC60073C9FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7794E2DC27E25DC60073C9FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = UKNJA97TGT;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = happit/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = andrewzharov.happit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7794E2DD27E25DC60073C9FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = UKNJA97TGT;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = happit/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = andrewzharov.happit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		7794E2DF27E25DC60073C9FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = UKNJA97TGT;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = andrewzharov.happitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/happit.app/happit";
+			};
+			name = Debug;
+		};
+		7794E2E027E25DC60073C9FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = UKNJA97TGT;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = andrewzharov.happitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/happit.app/happit";
+			};
+			name = Release;
+		};
+		7794E2E227E25DC60073C9FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = UKNJA97TGT;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = andrewzharov.happitUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = happit;
+			};
+			name = Debug;
+		};
+		7794E2E327E25DC60073C9FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = UKNJA97TGT;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = andrewzharov.happitUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = happit;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7794E2A927E25DC30073C9FC /* Build configuration list for PBXProject "happit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7794E2D927E25DC60073C9FC /* Debug */,
+				7794E2DA27E25DC60073C9FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7794E2DB27E25DC60073C9FC /* Build configuration list for PBXNativeTarget "happit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7794E2DC27E25DC60073C9FC /* Debug */,
+				7794E2DD27E25DC60073C9FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7794E2DE27E25DC60073C9FC /* Build configuration list for PBXNativeTarget "happitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7794E2DF27E25DC60073C9FC /* Debug */,
+				7794E2E027E25DC60073C9FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7794E2E127E25DC60073C9FC /* Build configuration list for PBXNativeTarget "happitUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7794E2E227E25DC60073C9FC /* Debug */,
+				7794E2E327E25DC60073C9FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		7794E2BA27E25DC30073C9FC /* happit.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				7794E2BB27E25DC30073C9FC /* happit.xcdatamodel */,
+			);
+			currentVersion = 7794E2BB27E25DC30073C9FC /* happit.xcdatamodel */;
+			path = happit.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 7794E2A627E25DC30073C9FC /* Project object */;
+}
