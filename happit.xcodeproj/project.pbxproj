@@ -7,9 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		77330F4E27E92124007D023C /* HabitItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77330F4D27E92124007D023C /* HabitItem.swift */; };
+		77330F5027E92134007D023C /* HabitInit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77330F4F27E92134007D023C /* HabitInit.swift */; };
+		77330F5227E92152007D023C /* HabitBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77330F5127E92152007D023C /* HabitBuilder.swift */; };
+		77330F5B27E946AF007D023C /* HabitCodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77330F5A27E946AF007D023C /* HabitCodable.swift */; };
+		777614E427E6559A00684E01 /* HabitsAssembler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 777614E327E6559A00684E01 /* HabitsAssembler.swift */; };
+		777614E827E6646A00684E01 /* HabitTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 777614E627E6646A00684E01 /* HabitTableCell.swift */; };
+		777614E927E6646A00684E01 /* HabitTableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 777614E727E6646A00684E01 /* HabitTableCell.xib */; };
+		777614EE27E668C800684E01 /* Enums.swift in Sources */ = {isa = PBXBuildFile; fileRef = 777614ED27E668C800684E01 /* Enums.swift */; };
+		777614F627E6FA2800684E01 /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 777614F527E6FA2800684E01 /* UIColorExtension.swift */; };
+		7793DE7E27F127B500F3C31F /* HabitModel+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7793DE7C27F127B500F3C31F /* HabitModel+CoreDataClass.swift */; };
+		7793DE7F27F127B500F3C31F /* HabitModel+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7793DE7D27F127B500F3C31F /* HabitModel+CoreDataProperties.swift */; };
+		7793DE8127F18CFA00F3C31F /* UIViewControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7793DE8027F18CFA00F3C31F /* UIViewControllerExtension.swift */; };
+		7793DE8627F4F9C100F3C31F /* AddHabitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7793DE8527F4F9C100F3C31F /* AddHabitViewController.swift */; };
+		7793DE8827F4F9D100F3C31F /* AddHabitPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7793DE8727F4F9D100F3C31F /* AddHabitPresenter.swift */; };
+		7793DE8A27F4F9DB00F3C31F /* AddHabitRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7793DE8927F4F9DB00F3C31F /* AddHabitRouter.swift */; };
 		7794E2B227E25DC30073C9FC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7794E2B127E25DC30073C9FC /* AppDelegate.swift */; };
 		7794E2B427E25DC30073C9FC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7794E2B327E25DC30073C9FC /* SceneDelegate.swift */; };
-		7794E2B627E25DC30073C9FC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7794E2B527E25DC30073C9FC /* ViewController.swift */; };
 		7794E2B927E25DC30073C9FC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7794E2B727E25DC30073C9FC /* Main.storyboard */; };
 		7794E2BC27E25DC30073C9FC /* happit.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7794E2BA27E25DC30073C9FC /* happit.xcdatamodeld */; };
 		7794E2BE27E25DC50073C9FC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7794E2BD27E25DC50073C9FC /* Assets.xcassets */; };
@@ -17,6 +31,16 @@
 		7794E2CC27E25DC50073C9FC /* happitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7794E2CB27E25DC50073C9FC /* happitTests.swift */; };
 		7794E2D627E25DC60073C9FC /* happitUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7794E2D527E25DC60073C9FC /* happitUITests.swift */; };
 		7794E2D827E25DC60073C9FC /* happitUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7794E2D727E25DC60073C9FC /* happitUITestsLaunchTests.swift */; };
+		7794E30027E28C9A0073C9FC /* HabitsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7794E2FF27E28C9A0073C9FC /* HabitsViewController.swift */; };
+		7794E30227E2915A0073C9FC /* HabitsInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7794E30127E2915A0073C9FC /* HabitsInteractor.swift */; };
+		7794E30427E291760073C9FC /* HabitsPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7794E30327E291760073C9FC /* HabitsPresenter.swift */; };
+		7794E30627E291860073C9FC /* HabitsRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7794E30527E291860073C9FC /* HabitsRouter.swift */; };
+		7794E30827E291B90073C9FC /* HabitsNetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7794E30727E291B90073C9FC /* HabitsNetworkService.swift */; };
+		7794E30C27E29EAF0073C9FC /* HabitsCoreDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7794E30B27E29EAF0073C9FC /* HabitsCoreDataService.swift */; };
+		77E0ED1B27ED510100E2A4FE /* HabitEquatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77E0ED1A27ED510100E2A4FE /* HabitEquatable.swift */; };
+		77E0ED2327EDA8B900E2A4FE /* ArrayExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77E0ED2227EDA8B900E2A4FE /* ArrayExtension.swift */; };
+		77E0ED2527EF8FE100E2A4FE /* HabitComparable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77E0ED2427EF8FE100E2A4FE /* HabitComparable.swift */; };
+		77E0ED2B27F00CE600E2A4FE /* HabitsTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77E0ED2A27F00CE600E2A4FE /* HabitsTableView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,10 +61,25 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		77330F4D27E92124007D023C /* HabitItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HabitItem.swift; sourceTree = "<group>"; };
+		77330F4F27E92134007D023C /* HabitInit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HabitInit.swift; sourceTree = "<group>"; };
+		77330F5127E92152007D023C /* HabitBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HabitBuilder.swift; sourceTree = "<group>"; };
+		77330F5A27E946AF007D023C /* HabitCodable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HabitCodable.swift; sourceTree = "<group>"; };
+		777614E327E6559A00684E01 /* HabitsAssembler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HabitsAssembler.swift; sourceTree = "<group>"; };
+		777614E627E6646A00684E01 /* HabitTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HabitTableCell.swift; sourceTree = "<group>"; };
+		777614E727E6646A00684E01 /* HabitTableCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HabitTableCell.xib; sourceTree = "<group>"; };
+		777614ED27E668C800684E01 /* Enums.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Enums.swift; sourceTree = "<group>"; };
+		777614EF27E669DF00684E01 /* NetworkDebug.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = NetworkDebug.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		777614F527E6FA2800684E01 /* UIColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColorExtension.swift; sourceTree = "<group>"; };
+		7793DE7C27F127B500F3C31F /* HabitModel+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "HabitModel+CoreDataClass.swift"; path = "../../../../HabitModel+CoreDataClass.swift"; sourceTree = "<group>"; };
+		7793DE7D27F127B500F3C31F /* HabitModel+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "HabitModel+CoreDataProperties.swift"; path = "../../../../HabitModel+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		7793DE8027F18CFA00F3C31F /* UIViewControllerExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewControllerExtension.swift; sourceTree = "<group>"; };
+		7793DE8527F4F9C100F3C31F /* AddHabitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddHabitViewController.swift; sourceTree = "<group>"; };
+		7793DE8727F4F9D100F3C31F /* AddHabitPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddHabitPresenter.swift; sourceTree = "<group>"; };
+		7793DE8927F4F9DB00F3C31F /* AddHabitRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddHabitRouter.swift; sourceTree = "<group>"; };
 		7794E2AE27E25DC30073C9FC /* happit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = happit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7794E2B127E25DC30073C9FC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7794E2B327E25DC30073C9FC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		7794E2B527E25DC30073C9FC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		7794E2B827E25DC30073C9FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7794E2BB27E25DC30073C9FC /* happit.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = happit.xcdatamodel; sourceTree = "<group>"; };
 		7794E2BD27E25DC50073C9FC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -51,6 +90,16 @@
 		7794E2D127E25DC60073C9FC /* happitUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = happitUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7794E2D527E25DC60073C9FC /* happitUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = happitUITests.swift; sourceTree = "<group>"; };
 		7794E2D727E25DC60073C9FC /* happitUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = happitUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		7794E2FF27E28C9A0073C9FC /* HabitsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HabitsViewController.swift; sourceTree = "<group>"; };
+		7794E30127E2915A0073C9FC /* HabitsInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HabitsInteractor.swift; sourceTree = "<group>"; };
+		7794E30327E291760073C9FC /* HabitsPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HabitsPresenter.swift; sourceTree = "<group>"; };
+		7794E30527E291860073C9FC /* HabitsRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HabitsRouter.swift; sourceTree = "<group>"; };
+		7794E30727E291B90073C9FC /* HabitsNetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HabitsNetworkService.swift; sourceTree = "<group>"; };
+		7794E30B27E29EAF0073C9FC /* HabitsCoreDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HabitsCoreDataService.swift; sourceTree = "<group>"; };
+		77E0ED1A27ED510100E2A4FE /* HabitEquatable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HabitEquatable.swift; sourceTree = "<group>"; };
+		77E0ED2227EDA8B900E2A4FE /* ArrayExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArrayExtension.swift; sourceTree = "<group>"; };
+		77E0ED2427EF8FE100E2A4FE /* HabitComparable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HabitComparable.swift; sourceTree = "<group>"; };
+		77E0ED2A27F00CE600E2A4FE /* HabitsTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HabitsTableView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +127,49 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		77330F4C27E920F0007D023C /* Habits */ = {
+			isa = PBXGroup;
+			children = (
+				77330F4D27E92124007D023C /* HabitItem.swift */,
+				77330F4F27E92134007D023C /* HabitInit.swift */,
+				77330F5A27E946AF007D023C /* HabitCodable.swift */,
+				77330F5127E92152007D023C /* HabitBuilder.swift */,
+				77E0ED1A27ED510100E2A4FE /* HabitEquatable.swift */,
+				77E0ED2427EF8FE100E2A4FE /* HabitComparable.swift */,
+			);
+			path = Habits;
+			sourceTree = "<group>";
+		};
+		777614E527E6642C00684E01 /* HabitTableCell */ = {
+			isa = PBXGroup;
+			children = (
+				777614E627E6646A00684E01 /* HabitTableCell.swift */,
+				777614E727E6646A00684E01 /* HabitTableCell.xib */,
+			);
+			path = HabitTableCell;
+			sourceTree = "<group>";
+		};
+		777614EC27E668A400684E01 /* HabitEntity */ = {
+			isa = PBXGroup;
+			children = (
+				77330F4C27E920F0007D023C /* Habits */,
+				777614ED27E668C800684E01 /* Enums.swift */,
+				7793DE7C27F127B500F3C31F /* HabitModel+CoreDataClass.swift */,
+				7793DE7D27F127B500F3C31F /* HabitModel+CoreDataProperties.swift */,
+			);
+			path = HabitEntity;
+			sourceTree = "<group>";
+		};
+		7793DE8427F4F99D00F3C31F /* AddHabitModule */ = {
+			isa = PBXGroup;
+			children = (
+				7793DE8527F4F9C100F3C31F /* AddHabitViewController.swift */,
+				7793DE8727F4F9D100F3C31F /* AddHabitPresenter.swift */,
+				7793DE8927F4F9DB00F3C31F /* AddHabitRouter.swift */,
+			);
+			path = AddHabitModule;
+			sourceTree = "<group>";
+		};
 		7794E2A527E25DC30073C9FC = {
 			isa = PBXGroup;
 			children = (
@@ -101,14 +193,18 @@
 		7794E2B027E25DC30073C9FC /* happit */ = {
 			isa = PBXGroup;
 			children = (
+				777614EF27E669DF00684E01 /* NetworkDebug.playground */,
+				7794E2E427E25DF90073C9FC /* VIPER */,
 				7794E2B127E25DC30073C9FC /* AppDelegate.swift */,
 				7794E2B327E25DC30073C9FC /* SceneDelegate.swift */,
-				7794E2B527E25DC30073C9FC /* ViewController.swift */,
+				777614F527E6FA2800684E01 /* UIColorExtension.swift */,
 				7794E2B727E25DC30073C9FC /* Main.storyboard */,
+				7793DE8027F18CFA00F3C31F /* UIViewControllerExtension.swift */,
 				7794E2BD27E25DC50073C9FC /* Assets.xcassets */,
 				7794E2BF27E25DC50073C9FC /* LaunchScreen.storyboard */,
 				7794E2C227E25DC50073C9FC /* Info.plist */,
 				7794E2BA27E25DC30073C9FC /* happit.xcdatamodeld */,
+				77E0ED2227EDA8B900E2A4FE /* ArrayExtension.swift */,
 			);
 			path = happit;
 			sourceTree = "<group>";
@@ -128,6 +224,32 @@
 				7794E2D727E25DC60073C9FC /* happitUITestsLaunchTests.swift */,
 			);
 			path = happitUITests;
+			sourceTree = "<group>";
+		};
+		7794E2E427E25DF90073C9FC /* VIPER */ = {
+			isa = PBXGroup;
+			children = (
+				7793DE8427F4F99D00F3C31F /* AddHabitModule */,
+				7794E2F827E273710073C9FC /* HabitsTableModule */,
+			);
+			path = VIPER;
+			sourceTree = "<group>";
+		};
+		7794E2F827E273710073C9FC /* HabitsTableModule */ = {
+			isa = PBXGroup;
+			children = (
+				77E0ED2A27F00CE600E2A4FE /* HabitsTableView.swift */,
+				7794E2FF27E28C9A0073C9FC /* HabitsViewController.swift */,
+				7794E30327E291760073C9FC /* HabitsPresenter.swift */,
+				7794E30527E291860073C9FC /* HabitsRouter.swift */,
+				7794E30127E2915A0073C9FC /* HabitsInteractor.swift */,
+				7794E30727E291B90073C9FC /* HabitsNetworkService.swift */,
+				7794E30B27E29EAF0073C9FC /* HabitsCoreDataService.swift */,
+				777614E327E6559A00684E01 /* HabitsAssembler.swift */,
+				777614E527E6642C00684E01 /* HabitTableCell */,
+				777614EC27E668A400684E01 /* HabitEntity */,
+			);
+			path = HabitsTableModule;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -235,6 +357,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7794E2C127E25DC50073C9FC /* LaunchScreen.storyboard in Resources */,
+				777614E927E6646A00684E01 /* HabitTableCell.xib in Resources */,
 				7794E2BE27E25DC50073C9FC /* Assets.xcassets in Resources */,
 				7794E2B927E25DC30073C9FC /* Main.storyboard in Resources */,
 			);
@@ -261,10 +384,33 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7794E2B627E25DC30073C9FC /* ViewController.swift in Sources */,
+				777614F627E6FA2800684E01 /* UIColorExtension.swift in Sources */,
+				777614EE27E668C800684E01 /* Enums.swift in Sources */,
+				777614E827E6646A00684E01 /* HabitTableCell.swift in Sources */,
+				7794E30C27E29EAF0073C9FC /* HabitsCoreDataService.swift in Sources */,
 				7794E2BC27E25DC30073C9FC /* happit.xcdatamodeld in Sources */,
+				77E0ED1B27ED510100E2A4FE /* HabitEquatable.swift in Sources */,
+				77330F5027E92134007D023C /* HabitInit.swift in Sources */,
+				7793DE8827F4F9D100F3C31F /* AddHabitPresenter.swift in Sources */,
 				7794E2B227E25DC30073C9FC /* AppDelegate.swift in Sources */,
+				7794E30427E291760073C9FC /* HabitsPresenter.swift in Sources */,
+				777614E427E6559A00684E01 /* HabitsAssembler.swift in Sources */,
+				77330F5B27E946AF007D023C /* HabitCodable.swift in Sources */,
+				77E0ED2B27F00CE600E2A4FE /* HabitsTableView.swift in Sources */,
+				7793DE7F27F127B500F3C31F /* HabitModel+CoreDataProperties.swift in Sources */,
+				7794E30027E28C9A0073C9FC /* HabitsViewController.swift in Sources */,
+				7794E30827E291B90073C9FC /* HabitsNetworkService.swift in Sources */,
 				7794E2B427E25DC30073C9FC /* SceneDelegate.swift in Sources */,
+				77E0ED2527EF8FE100E2A4FE /* HabitComparable.swift in Sources */,
+				77330F5227E92152007D023C /* HabitBuilder.swift in Sources */,
+				77330F4E27E92124007D023C /* HabitItem.swift in Sources */,
+				7794E30227E2915A0073C9FC /* HabitsInteractor.swift in Sources */,
+				7793DE8127F18CFA00F3C31F /* UIViewControllerExtension.swift in Sources */,
+				7794E30627E291860073C9FC /* HabitsRouter.swift in Sources */,
+				7793DE7E27F127B500F3C31F /* HabitModel+CoreDataClass.swift in Sources */,
+				77E0ED2327EDA8B900E2A4FE /* ArrayExtension.swift in Sources */,
+				7793DE8627F4F9C100F3C31F /* AddHabitViewController.swift in Sources */,
+				7793DE8A27F4F9DB00F3C31F /* AddHabitRouter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -460,7 +606,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -488,7 +634,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
