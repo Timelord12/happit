@@ -54,7 +54,6 @@ class HabitsPresenter : HabitsViewOutput, HabitsInteractorOutput, HabitsRouterOu
         Task.init(priority: .userInitiated) {
             do {
                 try await interactor.updateHabit(updatedHabit)
-                fetchMoreData()
                 view.reloadData()
             } catch {
                 view.showAlert(title: "Failed update habit online", message: "Changes will be saved locally", redirectToSettings: false)

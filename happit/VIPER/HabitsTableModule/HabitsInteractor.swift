@@ -116,6 +116,9 @@ class HabitsInteractor : HabitsInteractorInput {
         for habit in tasks.toUpdate {
             let remoteVersion = remoteData.first(where:) {$0.id == habit.id}!
             let newDoneDates = habit.doneDates.difference(from: remoteVersion.doneDates)
+            print("remoteVersion: \(remoteVersion.date)")
+            print("localVersion: \(habit.date)")
+            print("\(habit.date > remoteVersion.date)")
             for date in newDoneDates { try await network.completeHabit(habit, date: date) }
             if habit.date > remoteVersion.date { try await network.updateHabit(habit) }
         }

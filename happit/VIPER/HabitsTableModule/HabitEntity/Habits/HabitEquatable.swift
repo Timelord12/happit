@@ -16,7 +16,6 @@ extension HabitItem : Equatable {
         lhs.frequency == rhs.frequency &&
         lhs.color == rhs.color &&
         lhs.count == rhs.count &&
-        lhs.date == rhs.date &&
         lhs.doneDates == rhs.doneDates
     }
 }

@@ -99,8 +99,9 @@ class AddHabitViewController: UITableViewController, AddHabitViewInput {
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         super.prepare(for: segue, sender: sender)
-        guard segue.identifier == "saveSegue" else { return }
-        self.habit = presenter.prepare()
+        if segue.identifier == "saveSegue" {
+            self.habit = presenter.prepare()
+        }
     }
 }
 
